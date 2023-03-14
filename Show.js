@@ -18,6 +18,6 @@ class Show {
       this.delButton.classList.add("delete");
       this.span.textContent = this.taskList.length;
     }
-    remove.deleteTask(); // nasłuchiwanie na buttony 'usuń'
+    remove.deleteTask(); // listening on button 'delete'
   };
 }

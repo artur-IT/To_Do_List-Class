@@ -8,9 +8,9 @@ class Search {
       let i = item.target.value;
       this.letterArr = show.taskList.filter((el) => el.includes(i));
       this.span.textContent = this.letterArr.length;
-      // this.letterArr.forEach((el) => console.log(el)); // wyświetl znalezione pozycje!
+      // this.letterArr.forEach((el) => console.log(el)); // show search position
 
-      //  WYŚWIETL W DOM
+      //  show in DOM
       for (let i = 0; i < this.letterArr.length; i++) {
         this.li = document.createElement("li");
         this.ul.appendChild(this.li);

@@ -3,10 +3,10 @@ class Removal {
     this.button = [...document.querySelectorAll("button.delete")];
     this.button.forEach((btn) => {
       btn.addEventListener("click", () => {
-        btn.parentElement.remove(); // usuń całego rodzica!
+        btn.parentElement.remove(); // remove all parent
         show.taskList.splice(this.button.indexOf(btn), 1);
         show.span.textContent = show.taskList.length;
-        show.showList(); // po usunięciu wyświetl aktualną listę zadań
+        show.showList(); // after remove show actual task list
       });
     });
   };
