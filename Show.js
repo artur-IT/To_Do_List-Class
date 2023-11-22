@@ -1,7 +1,6 @@
 class Show {
-  // każda nowa instancja będzie zawierać to co w konstruktorze
   constructor() {
-    this.taskList = ["uczyć się", "kupić banany", "lis", "kot"];
+    this.taskList = ["learn JavaScript", "buy bananas", "feed cat", "buy flowers"];
     this.ul = document.querySelector("ul");
     this.span = document.querySelector("#count");
   }
@@ -14,7 +13,7 @@ class Show {
       this.li.textContent = this.taskList[i];
       this.delButton = document.createElement("button");
       this.li.appendChild(this.delButton);
-      this.delButton.textContent = "Usuń";
+      this.delButton.textContent = "delete";
       this.delButton.classList.add("delete");
       this.span.textContent = this.taskList.length;
     }

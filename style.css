@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  background-image: url("shopping.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: yellowgreen;
+  font-family: "Lato", sans-serif;
+}
+#bgc {
+  background-color: rgba(0, 9, 16, 0.9);
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+}
+section {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+h1 {
+  color: #fff;
+  display: inline;
+}
+#class {
+  color: brown;
+  font-size: 20px;
+}
+input {
+  margin: 15px 0 40px 0;
+  font-size: 18px;
+  padding: 2px 5px;
+}
+button.add {
+  margin: 0 10px;
+  padding: 4px 10px;
+  font-size: 14px;
+  vertical-align: calc(15%);
+  cursor: pointer;
+}
+button.delete {
+  vertical-align: calc(10%);
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 1px 5px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+button:hover {
+  color: #fff;
+  background-color: yellowgreen;
+}
+ul {
+  list-style-type: square;
+  padding-inline-start: 5px;
+  margin: 0;
+}
+li {
+  padding-top: 5px;
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+  section {
+    padding-left: 0;
+    max-width: 50vw;
+    transform: translate(75%, 10%);
+  }
+  ul {
+    max-width: 40vw;
+  }
+}
