@@ -1,21 +1,30 @@
-
 # To Do List
-To Do List (Class) in Java Script
 
-Projekt podsumowujący moją dotychczasową naukę JavaScript. 
-Stworzony na klasach (poprzedni był na funkcjach).
+![a main page screenshot](/to_do_list.png)
 
-Skupiłem się w nim na funkcjonalności, więc design jest jaki jest.
+Simple To Do List (on Class) in Java Script.
 
-Jestem z niego dumny!
-## Autor
+See the live version of [To Do List](https://artur-it.github.io/To_Do_List-Class/).
 
-- [@artur-IT](https://www.github.com/artur-IT)
+**Main features**:
 
+- Add task
+- Remove task
+- Search actual task on list
+- Task counter
 
-## Cechy
+## 💡 Technologies
 
-- Dodawanie zadania
-- Usuwanie zadania
-- Przeszukiwanie aktualnych zadań
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+## 🤔 Solutions provided in the project
+
+- The list of tasks is generated in JS
+
+![generate task](/generate_task.png)
+
+## 💭 Conclusions for future projects
+
+The same project done in [JS + React](https://artur-it.github.io/ToDoList_React/).
